@@ -24,6 +24,7 @@ services:
       - db
     restart: on-failure
 
+
   nginx:
     build:
       context: ./nginx
